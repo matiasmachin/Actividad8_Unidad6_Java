@@ -62,7 +62,7 @@ public class Ejercicio_1 {
 			int[] lista2=lista.clone();
 			for(int i=0; i<20;i++) {
 			
-						System.out.println("El valor del array es en la posicion: "+ i + " es: " + valores(lista2,i)+"\n" );
+						valores(lista2,i);
 			}			
 			break;
 		case 5:
@@ -82,7 +82,8 @@ public class Ejercicio_1 {
 	}
 	
 	public static int valores (int[] k, int z) { //Opcion 4 Imprimir valores del array
-				return k[z];
+				System.out.println("El valor del array es en la posicion: "+ z + " es: " +(k[z])+"\n" );
+				return z;
 	
 	}
 		
